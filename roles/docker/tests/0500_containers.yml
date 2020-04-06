@@ -5,7 +5,7 @@
   become: true
   vars:
     manala_docker_config_daemon:
-      - storage-driver: vfs
+      - storage-driver: aufs
     manala_docker_containers:
       - name:  hello-world
         image: hello-world
